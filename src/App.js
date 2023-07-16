@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Scene from './scene';
+import Texture from './threed';
 function App() {
   return (
     <div className="App">
-     <Scene />
+     {/* <Scene /> */}
+     <Texture />
     </div>
   );
 }
